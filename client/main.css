@@ -1,0 +1,67 @@
+body{
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  background-color: black;
+  font-family: futura;
+  overflow-x: hidden;
+}
+
+#audio{
+  background-color: rgba(0,0,0,0);
+  position : absolute;
+  left : 15000;
+}
+
+#graph{
+  margin-top: 10px;
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  border : 2px solid green;
+  padding: 10px;
+  overflow-x: scroll;
+  margin-bottom: 20px;
+}
+
+#fullSpeedAheadBtn{
+  width : 150px;
+  height : 150px;
+  border-radius: 100%;
+  font-size: 18px;
+  color : white;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  border : 2px solid yellow;
+  cursor: pointer;
+}
+
+#ocean{
+  background-image: url('ocean.gif');
+  background-repeat-y: no-repeat;
+  height : 250px;
+  width : 100%;
+  margin-bottom: 20px;
+}
+
+#titanic{
+  position: absolute;
+  top: 160px;
+  left: 80px;
+  width : 350px;
+  z-index: 1;
+}
+
+#iceberg{
+  position: absolute;
+  z-index: 2;
+  transform : translate(1500px, 10px);
+  width : 350px;
+  transition: transform 6000ms ease-in;
+}
