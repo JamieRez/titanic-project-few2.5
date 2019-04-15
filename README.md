@@ -14,7 +14,7 @@ node server.js
 3.
 Go to port 3000
 
-##Instructions
+## Instructions
  1. The Green box at the top of the page holds all the passengers. Blue is a male and pink is a female. Red is dead.
  
  2. Roleplay as the captain of the Titanic and press the "Full Speed Ahead" button.
